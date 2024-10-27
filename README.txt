@@ -4,7 +4,7 @@ This directory contains the files and resources for the CoCo project. Below is a
 
 CoCo/
 │
-├── MAIN CODE-GitHub.ipynb                                 # Main application file
+├── MAIN CODE-GitHub.ipynb                                 # Main application file for datasets
 │   ├── FHIR_dummy_data_.parquet                           # Sample FHIR data in Parquet format
 │   ├── ICD_Katalog_2023_DWH_export_202406071440.csv       # ICD-10 GM catalog data
 │   ├── LOINC_DWH_export_202409230739.csv                  # LOINC catalog data
@@ -12,12 +12,13 @@ CoCo/
 │
 ├── requirements.txt                                        # List of dependencies required to run the project
 │
-├── README.md                                               # Empty
+├── README.md                                               # Project overview and usage instructions
 │
 ├── README.txt                                              # Overview of project files (this file)
 │
-└── SQL Query.ipynb                                        # Notebook containing SQL queries for data extraction
-
+├── SQL Query.ipynb                                        # Notebook containing SQL queries for data extraction
+│
+└── images/                                                # Folder containing images used in the markdown sections of the MAIN CODE-GitHub.ipynb 
 
 
 #### Getting Started ###############################################
