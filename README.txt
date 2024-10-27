@@ -1,54 +1,62 @@
+# CoCo Project Directory Overview
+
+This directory contains the files and resources for the CoCo project. Below is an overview of the structure and purpose of each file:
+
 CoCo/
 │
-├── MAIN CODE-GitHub.ipynb                  # Main application file for data  datasets
-│   ├── FHIR_dummy_data_.parquet            # Sample FHIR data in Parquet format
-│   ├── ICD_Katalog_2023_DWH_export_202406071440.csv  # ICD-10 GM catalog data
-│   ├── LOINC_DWH_export_202409230739.csv   # LOINC catalog data
-│   └── OPS_Katalog_2023_DWH_export_202409200944.csv  # OPS catalog data
-├── requirements.txt                         # List of dependencies required 
+├── MAIN CODE-GitHub.ipynb                                 # Main application file
+│   ├── FHIR_dummy_data_.parquet                           # Sample FHIR data in Parquet format
+│   ├── ICD_Katalog_2023_DWH_export_202406071440.csv       # ICD-10 GM catalog data
+│   ├── LOINC_DWH_export_202409230739.csv                  # LOINC catalog data
+│   └── OPS_Katalog_2023_DWH_export_202409200944.csv       # OPS catalog data
+│
+├── requirements.txt                                        # List of dependencies required to run the project
+│
+├── README.md                                               # Empty
+│
+├── README.txt                                              # Overview of project files (this file)
+│
+└── SQL Query.ipynb                                        # Notebook containing SQL queries for data extraction
 
-
-#### File Descriptions ###############################################
-
-MAIN CODE-GitHub.ipynb: This is the main Jupyter Notebook containing the code for data analysis. It includes detailed calculations for distances between healthcare entities based on their attributes.
-
-FHIR_dummy_data_.parquet: A sample dataset in Parquet format for testing and demonstration purposes.
-
-ICD_Katalog_2023_DWH_export_202406071440.csv: A CSV file containing the ICD-10 GM catalog data.
-
-LOINC_DWH_export_202409230739.csv: A CSV file containing the LOINC catalog data.
-
-OPS_Katalog_2023_DWH_export_202409200944.csv: A CSV file containing the OPS catalog data.
-
-requirements.txt: A text file that lists all the Python dependencies required to run the Jupyter Notebook successfully. Ensure to install these packages in your Python environment.
 
 
 #### Getting Started ###############################################
 
-To get started with this repository, follow these steps:
+# Project Files Overview
 
-Clone the repository to your local machine:
+This directory contains the necessary files and resources for the project, including data files, code notebooks, and documentation. Below is a brief description of each file:
 
-bash
-Code kopieren
-git clone https://github.com/pelingenc/CoCo.git
-Navigate to the project directory:
+1. **FHIR_dummy_data_.parquet**
+   - A sample dataset in Parquet format containing dummy FHIR data for testing and demonstration purposes.
 
-bash
-Code kopieren
-cd CoCo
-Install the required dependencies:
+2. **ICD_Katalog_2023_DWH_export_202406071440.csv**
+   - A CSV file containing the ICD (International Classification of Diseases) catalog exported from the Data Warehouse (DWH) as of June 7, 2024.
 
-bash
-Code kopieren
-pip install -r requirements.txt
-Open the Jupyter Notebook:
+3. **LOINC_DWH_export_202409230739.csv**
+   - A CSV file containing LOINC (Logical Observation Identifiers Names and Codes) data exported from the Data Warehouse (DWH) on September 23, 2024.
 
-bash
-Code kopieren
-jupyter notebook MAIN CODE-GitHub.ipynb
-Run the analysis within the notebook, and explore the datasets!
+4. **MAIN CODE-GitHub.ipynb**
+   - A Jupyter Notebook containing the main code for the project. This notebook includes the primary functionalities and analyses performed on the datasets.
 
-Contributing
-Contributions are welcome! If you would like to contribute to this project, create a pull request with your changes.
+5. **OPS_Katalog_2023_DWH_export_202409200944.csv**
+   - A CSV file with the OPS (Operation and Procedure Codes) catalog exported from the Data Warehouse (DWH) on September 20, 2024.
+
+6. **README.md**
+   - Empty.
+
+7. **README.txt**
+   - A text file that outlines the contents of the project directory (this file).
+
+8. **SQL Query.ipynb**
+   - A Jupyter Notebook containing SQL queries used for data extraction and manipulation within the project.
+
+9. **requirements.txt**
+   - A file listing the Python package dependencies required to run the project. Use this file to set up your virtual environment.
+
+## Usage
+
+To get started, make sure to install the necessary packages listed in `requirements.txt` and follow the instructions provided in `README.txt`.
+
+
+
 
